@@ -1,0 +1,29 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundário: #C0C0CO;
+    --botão-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-pricipal: 'inter';
+    --botão-azul-efeito: #3c92fa;
+}
+
+body{
+    background-color: var(--cor-de-fundo;
+    color: var(--branco-principal);
+    font-family: var(--fonte-pricipal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*{
+ margin: 0 ;
+ padding: 0 ;
+}
+  
+.pricipal{
+    background-image:url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: center;
+    align-items: center;
+    text-align: center;
+}
