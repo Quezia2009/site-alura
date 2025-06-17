@@ -130,4 +130,27 @@ body{
     margin-top: 1em;
 }
 
-.
+.lista__link {
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cinza-secundário);
+    font-size: 14px;
+}
+
+.lista__link a::hover {
+    color: var(--botão-azul);
+}
+
+.lista__link a:active {
+    color: purple;
+}
+
+.container__botão:hover {
+    background-color: var(--botão-azul-efeito);
+    color: var(--cor-de-fundo);
+}
